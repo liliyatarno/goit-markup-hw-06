@@ -346,6 +346,23 @@
         </div>
         <div class="subscription">
           <p class="connect">Подпишитесь на рассылку</p>
+          <form action="#" method="GET" class="contact-form">
+            <section class="contact-form-section">
+              <h2 hidden>Подписаться</h2>
+              <input
+                type="email"
+                class="contact-form-input"
+                name="user-email"
+                placeholder="E-mail"
+                required
+              />
+              <button type="submit" class="contact-form-btn submit">
+                Подписаться<svg class="contact-form-btn-svg">
+                  <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </section>
+          </form>
         </div>
       </div>
     </footer>
